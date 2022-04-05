@@ -1,0 +1,142 @@
+
+    body 
+    {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        user-select: none;
+        background: #252525;
+        flex-direction: row-reverse;
+
+        margin-right:100px ;
+    }
+
+    .container 
+    {   margin-left: 1.8em;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 13px 13px 20px #4c4c4d,
+                  -13px -13px 20px #555454; 
+    }
+
+    .content 
+    {
+        width: 100%;
+        margin-top: 1.7em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .row button 
+    {
+        width: 60px;
+        height: 30px;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        margin: 5px;
+        border-radius: 4px;
+        transition: .1s;
+        box-shadow: 5px 5px 8px #00000020,
+                   -5px -5px 8px rgb(60, 60, 60);
+    }
+
+    .row button:hover 
+    {
+        /* box-shadow:  inset 5px 5px 8px rgba(16, 16, 16, .1),
+                     inset -5px -5px 8px rgb(77, 75, 75); */
+         background: rgb(149, 150, 142); 
+    }
+
+    .display #screen 
+    {
+        margin-bottom: .5em;
+        width: auto;
+        height: 70px;
+        font-size: 35px;
+        outline: none;
+        border: none;
+        text-align: right;
+        padding-right: .5em;
+        background: #ecf0f3;
+        border-radius: 6px;
+        box-shadow: inset 8px 8px 8px #5c5d5e,
+         inset -8px -8px 8px #434141;
+    }
+
+    #eval 
+    {
+        background: #fc5001;
+        color: #fff;
+        box-shadow: inset 5px 5px 8px #fc5001,
+                    inset -5px -5px 8px #fc5001;
+    }
+
+    #eval:hover 
+    {
+        box-shadow: inset 5px 5px 8px #9b3c10,
+                    inset -5px -5px 8px #9b3c10;
+    }
+
+    #ac 
+    {
+        background: #33cc33;
+        color: #fff;
+    }
+
+    #ac:hover 
+    {
+        box-shadow: inset 5px 5px 8px #2eb82e,
+                    inset -5px -5px 8px #33cc33;
+    }
+
+    #ce 
+    {
+        background: #ff3399;
+        color: #fff;
+    }
+
+    #ce:hover 
+    {
+          box-shadow: inset 5px 5px 8px #e60073,
+                      inset -5px -5px 8px #ff3399;
+    }
+
+    /*================= Heading Css =================*/
+    h2
+
+    {
+        padding-right: 90px;
+        font-size: 40px;
+        position: relative;  
+        bottom: 1em; 
+        color:rgb(105, 255, 5);
+        margin-left: 1.2em;
+        font-family: sans-serif;
+        text-transform: uppercase;
+ 
+                        letter-spacing: 6px;
+    }
+
+    h2 span
+    {
+    color: #ffffff;
+    font-size: 45px;
+
+    }
+
+    h2 .fa
+    {
+        position: absolute; 
+        top: 1.5em;
+        color: #33ccff;
+    }
+
+    b{
+        font-weight: 600;
+    }
