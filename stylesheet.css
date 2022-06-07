@@ -125,7 +125,7 @@ b {
   color: white;
   font-family: sans-serif;
 }
-/* --------------------- */
+/* --------- media queries ------------ */
 @media (max-width: 1000px) {
   .container,
   h2 {
