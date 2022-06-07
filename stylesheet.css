@@ -117,9 +117,26 @@ b {
   font-weight: 600;
 }
 
+#not {
+  display: none;
+}
+
+#not {
+  color: white;
+  font-family: sans-serif;
+}
 /* --------------------- */
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
+  .container,
+  h2 {
+    display: none;
+  }
+
   body {
-    background-color: yellow;
+    display: flex;
+  }
+  #not {
+    display: flex;
+    margin-left: 97px;
   }
 }
